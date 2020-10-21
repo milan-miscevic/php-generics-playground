@@ -10,7 +10,7 @@ use Mmm\PhpGenericsPlayground\Tractor;
 use Mmm\PhpGenericsPlayground\TractorRepairShop;
 use PHPUnit\Framework\TestCase;
 
-class CarRepairShopTest extends TestCase
+class RepairShopTest extends TestCase
 {
     public function testCorrect(): void
     {
@@ -26,8 +26,8 @@ class CarRepairShopTest extends TestCase
     public function testIncorrect(): void
     {
         /*
-         * Code works and tests pass
-         * But
+         * The code works and the tests pass
+         * But, static analysis fails
          */
 
         $carRepairShop = new CarRepairShop();

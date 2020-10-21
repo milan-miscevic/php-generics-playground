@@ -6,7 +6,7 @@ This repository provides examples of generics in PHP. It is made for my friend.
 
 ## Composer commands
 
-Unit tests and code coverage (the project is not fully covered):
+Unit tests and code coverage:
 
 ```bash
 composer test

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PhpSkeleton\Tests;
+namespace Mmm\PhpGenericsPlayground\Tests;
 
-use PhpSkeleton\Sample;
+use Mmm\PhpGenericsPlayground\Sample;
 use PHPUnit\Framework\TestCase;
 
 class SampleTest extends TestCase

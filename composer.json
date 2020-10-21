@@ -1,11 +1,11 @@
 {
-    "name": "milan-miscevic/php-skeleton",
+    "name": "milan-miscevic/php-generics-playground",
     "type": "project",
-    "description": "A starting point for other PHP projects",
+    "description": "A playground for generics in PHP",
     "keywords": [
-        "skeleton application",
-        "php project",
-        "skeleton"
+        "php",
+        "php generics",
+        "playground"
     ],
     "license": "MIT",
     "authors": [
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PhpSkeleton\\": "src/"
+            "Mmm\\PhpGenericsPlayground\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PhpSkeleton\\Tests\\": "tests/"
+            "Mmm\\PhpGenericsPlayground\\Tests\\": "tests/"
         }
     },
     "scripts": {

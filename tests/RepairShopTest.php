@@ -26,8 +26,8 @@ class RepairShopTest extends TestCase
     public function testIncorrect(): void
     {
         /*
-         * The code works and the tests pass
-         * But, static analysis fails
+         * The code works and the tests pass, but static analysis fails.
+         * You can not repair a car in a tractor shop and vice versa.
          */
 
         $carRepairShop = new CarRepairShop();

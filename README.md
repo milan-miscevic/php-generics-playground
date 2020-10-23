@@ -4,6 +4,14 @@
 
 This repository provides examples of generics in PHP. It is made for my friend.
 
+## Installation
+
+Fetch dependencies with Composer.
+
+```bash
+composer install
+```
+
 ## Composer commands
 
 Unit tests and code coverage:

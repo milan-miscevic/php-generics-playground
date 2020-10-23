@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Mmm\PhpGenericsPlayground\Tests;
 
-use Mmm\PhpGenericsPlayground\Car;
-use Mmm\PhpGenericsPlayground\CarRepairShop;
-use Mmm\PhpGenericsPlayground\Tractor;
-use Mmm\PhpGenericsPlayground\TractorRepairShop;
+use Mmm\PhpGenericsPlayground\RepairShop\Car;
+use Mmm\PhpGenericsPlayground\RepairShop\CarRepairShop;
+use Mmm\PhpGenericsPlayground\RepairShop\Tractor;
+use Mmm\PhpGenericsPlayground\RepairShop\TractorRepairShop;
 use PHPUnit\Framework\TestCase;
 
 class RepairShopTest extends TestCase

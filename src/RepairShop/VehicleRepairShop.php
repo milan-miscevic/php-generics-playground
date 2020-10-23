@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mmm\PhpGenericsPlayground;
+namespace Mmm\PhpGenericsPlayground\RepairShop;
 
 /**
  * @template T of Vehicle

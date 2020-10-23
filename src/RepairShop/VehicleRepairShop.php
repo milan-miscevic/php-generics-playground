@@ -7,7 +7,7 @@ namespace Mmm\PhpGenericsPlayground\RepairShop;
 /**
  * @template T of Vehicle
  */
-class VehicleRepairShop
+abstract class VehicleRepairShop
 {
     /**
      * @param T $vehicle

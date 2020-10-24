@@ -29,6 +29,7 @@ class ServiceContainerTest extends TestCase
         /*
          * This fails in every case, but static analysis can detect before the first run.
          */
-        $serviceContainer->get('Foo');
+        $foo = $serviceContainer->get('Foo');
+        $this->assertInstanceOf('Foo', $foo);
     }
 }
